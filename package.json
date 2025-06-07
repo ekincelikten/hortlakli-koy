@@ -1,8 +1,6 @@
-
 {
-  "name": "hortlakli-koy",
+  "name": "horlakli-koy",
   "version": "1.0.0",
-  "description": "Hortlaklı Köy - Web Tabanlı Çok Oyunculu Rol Yapma Oyunu",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
