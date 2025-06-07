@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Hortlaklı Köy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <div id="phase-display">Faz: Lobi</div>
+    <input type="text" id="nickname" placeholder="Takma adını gir" />
+    <button id="join-btn">Oyuna Katıl</button>
+    <div id="players"></div>
+    <div id="chat">
+      <div id="messages"></div>
+      <input type="text" id="chat-input" placeholder="Mesaj yaz..." />
+      <button id="send-btn">Gönder</button>
+    </div>
+  </div>
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
